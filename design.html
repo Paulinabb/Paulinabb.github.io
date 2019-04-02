@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton_enhanced.css">
+    <link rel="stylesheet" href="css/supage_style.css">
+    <title>Paulina Bakalarz - Web dev</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body>
+    <div class="containter">
+        <!--Navigation-->
+        <div id="mySidenav" class="sidenav" onclick="closeNav(), hideBtn()">
+            <div class="close-nav"><img  src="images/nav.png" alt="Closing icon of the menu"></div>
+            <a href="index.html" onclick="closeNav()">Main page</a>
+            <a href="index.html#aboutme" onclick="closeNav()">About me</a>
+            <a href="index.html#myworks" onclick="closeNav()">My works</a>
+            <a href="webdev.html" onclick="closeNav()">Web Development</a>
+            <a href="design.html" onclick="closeNav()">Design</a>
+            <a href="#contact" onclick="closeNav()">Contact</a>
+          </div>    
+
+        <span onclick="openNav(), displayBtn()" class="box-shadow-menu"><img src="images/nav.png" alt="Navigation icon of the menu"></i></span>
+        <!--Hero banner-->
+        <section class="main-bg col XL-12 o-XL-r">
+            
+            <div class="main-header animated slower fadeIn">
+                <h1>Design</h1>
+            </div>
+          
+        </section>
+        <!--Design section--> 
+        <section class="sec col XL-12">
+            <div class="col XL-4  o-XL-2 L-4 o-L-1 M-8 o-M-2">
+                <img class="col XL-12 img-shadow-red img-section-dwn fadeInLeft" src="images/web.jpg" alt="Image presenting web design example">
+            </div>
+            <div class="col XL-4 L-5 o-L-1 M-8 o-M-2 right-p">
+                    <h2>Web Design</h2>
+                    <p>
+                        While working with development of websites I often had to create them from scratch. That process
+                        involved research and analysis of the target group, as well as designing, prototyping and 
+                        user testings of created solutions. I have experience with designing custom and WordPress 
+                        websites with focus on UX.
+                    </p>
+                </div>
+        </section>   
+        <section class="sec col XL-12">
+            <div class="col XL-4  o-XL-2 L-4 o-L-1 M-8 o-M-2">
+                <img class="col XL-12 img-shadow-red img-section-dwn fadeInLeft" src="images/cards.jpg" alt="Image presenting bussines cards' design">
+            </div>
+            <div class="col XL-4 L-5 o-L-1 M-8 o-M-2 right-p">
+                    <h2>Print design</h2>
+                    <p>
+                        During my previous education, I obtained experience in advertising field and therefore
+                        I worked with print design, which involved desiging and printing of leaflets, bussines cards,
+                        posters, stickers, logo, post cards as well as illustrations for mugs and t-shirts.
+                    </p>
+                </div>
+        </section>
+        <section class="sec col XL-12">
+            <div class="col XL-4  o-XL-2 L-4 o-L-1 M-8 o-M-2">
+                <img class="col XL-12 img-shadow-red img-section-dwn fadeInLeft" src="images/digital.jpg" alt="Image presenting example of illustration">
+            </div>
+            <div class="col XL-4 L-5 o-L-1 M-8 o-M-2 right-p">
+                    <h2>Vector graphics </h2>
+                    <p>
+                        In my free time I also enjoy working with various kinds of vector graphics, illustrations
+                        and other ways of visual expression. I like experimenting with new techniques and learn 
+                        new Photoshop and Illustrator tricks.
+                    </p>
+                </div>
+        </section>
+       
+       
+            <!--Divide-->
+            <div class="divider col XL-2 o-XL-5 S-4 o-S-4"></div>
+            <section class="github-cta sec col XL-12">
+                <h2><a target="_blank" href="https://drive.google.com/open?id=15WPdg15bSo1ifDlML8duxbM4VvarPKyq">Want to see more? Click here.</a></h2>
+            </section>
+            <!--Divide-->
+            <div class="divider col XL-2 o-XL-5 S-4 o-S-4"></div>
+            <!--Contact section-->
+            <section class="sec col XL-12" id="contact">
+                    <div class="col XL-4 o-XL-2 L-5 o-L-1 M-8 o-M-2">
+                        <h2>Contact me</h2>
+                        <p>Do you have additional questions? Do you think I could help you with your project or
+                                I could be a suitable candidate for your new intern? Then do not hesitate to contact me!
+                                I am open to all opportunities, so let's meet over coffee and discuss the details.
+                        </p>
+                    </div>
+            <!--Contact form-->
+                    <form action="mailto:paulina.bakalarz962@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+                        <div class="col XL-3 o-XL-1 L-5 o-L-1 M-8 o-M-2">
+                            <input class="col XL-12" type="text"  name="name" placeholder="Your name" id="NameInput"><br>
+                            <input class="col XL-12" type="text"  name="contact" placeholder="Your e-mail" id="ContactInput"><br>
+                            <textarea class="col XL-12" type="text"  name="message" placeholder="Hi..." id="MessageInput"></textarea><br>
+                            <input class="col XL-4" type="submit" id="btn-blue" value="Send">
+                        </div>
+                    </form>
+            </section>
+            <!--Footer-->
+            <footer>    
+                <div class="footer-wrapper col XL-12">
+                    <div class="col XL-8 o-XL-2">
+                        <div class="copy-wrapper">
+                            <p class="copy">Copyright © 2019</p>
+                            <div style="float:right;">
+                                <a href="https://www.linkedin.com/in/paulina-bakalarz-244649141/" target="_blank"><img src="images/linkedin.png" class="copy-img"  alt="Linkedin profile icon"></a>
+                                <a href="https://github.com/Paulinabb" target="_blank"><img src="images/github.png"  class="copy-img" alt="Github profile icon"></a>
+                            </div>
+                       </div>
+                     </div>
+                </div>
+            </footer>
+    </div>
+    <script type="text/javascript">
+    /* navigation */
+ 
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+    $(document).keyup(function(e) {
+     if (e.key === "Escape") { 
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    });
+
+    /* navscrool */
+    $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, 1300);
+        return false;
+        }
+    }
+    });
+
+    </script>
+</body>
+</html>
