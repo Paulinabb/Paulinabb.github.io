@@ -24,6 +24,7 @@ p {
   top: 0;
   right: 0;
   background-color: rgb(1,3,55, 0.95);
+  visibility: visible;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
