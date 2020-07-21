@@ -177,6 +177,7 @@ span {
 }
 
 
+
 .right-p {
     padding-left: 2%;
 }
@@ -438,6 +439,10 @@ span {
         background-color:  #010345; 
         visibility: visible !important;
       }
+      #myworks {
+        padding-bottom: 0 !important;
+      }
+      
       
       
     }
