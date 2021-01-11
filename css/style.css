@@ -74,8 +74,8 @@ p {
     background-attachment: fixed !important;
     height: 100vh;
     display: block;
-    filter: blur(0.5px);
-    -webkit-filter: blur(0.5px);
+    filter: blur(0.05px);
+    -webkit-filter: blur(0.05px);
 }
 
 .main-header {
